@@ -1,0 +1,8 @@
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Release\IOTextFiles.exe
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Release\mscorlib.dll
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Release\normidna.nlp
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Release\normnfc.nlp
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Release\normnfd.nlp
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Release\normnfkc.nlp
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Release\normnfkd.nlp
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\obj\x86\Release\IOTextFiles.exe

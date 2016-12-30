@@ -12,14 +12,23 @@ namespace IOTextFiles
 
 			Console.WriteLine(_STable.stable[0]);
 
-			if (_io.save())
+			//	if (_io.save())
+			//	{
+			//		Console.WriteLine("\nТаблицата е запаметена успешно.\n");
+			//	}
+			//	else {
+			//		Console.WriteLine("\nТаблицата НЕ е запаметена успешно.\n");
+
+			//	}
+
+			if (_io.open())
 			{
-				Console.WriteLine("\nТаблицата е запаметена успешно.\n");
+				Console.WriteLine("\nТаблицата е прочетена успешно.\n");
 			}
 			else {
-				Console.WriteLine("\nТаблицата НЕ е запаметена успешно.\n");
+				Console.WriteLine("\nТаблицата НЕ е прочетена успешно.\n");
 
 			}
 		}
-	}
-}
+		}
+		}
