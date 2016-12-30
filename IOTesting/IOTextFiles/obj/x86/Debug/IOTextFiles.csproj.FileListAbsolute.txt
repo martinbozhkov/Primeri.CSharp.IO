@@ -1,0 +1,11 @@
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Debug\IOTextFiles.exe
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Debug\IOTextFiles.pdb
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Debug\mscorlib.dll
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Debug\normidna.nlp
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Debug\normnfc.nlp
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Debug\normnfd.nlp
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Debug\normnfkc.nlp
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\bin\Debug\normnfkd.nlp
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\obj\x86\Debug\IOTextFiles.csprojResolveAssemblyReference.cache
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\obj\x86\Debug\IOTextFiles.exe
+C:\aula\primeri.csharp.io\IOTesting\IOTextFiles\obj\x86\Debug\IOTextFiles.pdb
