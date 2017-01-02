@@ -8,7 +8,7 @@
     <Files>
       <File FileName="IOTextFiles\Program.cs" Line="23" Column="4" />
       <File FileName="IOTextFiles\STable.cs" Line="16" Column="33" />
-      <File FileName="IOTextFiles\IOSettings.cs" Line="22" Column="42" />
+      <File FileName="IOTextFiles\IOSettings.cs" Line="64" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.IOTextFiles PreferredExecutionTarget="MonoDevelop.Default" />
