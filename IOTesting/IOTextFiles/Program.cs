@@ -10,7 +10,7 @@ namespace IOTextFiles
 			STable _STable = new STable();
 			IOSettings _io = new IOSettings(_STable);
 
-			Console.WriteLine(_STable.stable[0]);
+			//Console.WriteLine(_STable.stable[0]);
 
 			//	if (_io.save())
 			//	{
