@@ -8,31 +8,59 @@ namespace IOXMLFiles
 	{
 		public static void Main(string[] args)
 		{
-			string value = "simple value", property = "simple property";
-
+			string value = "", property = "";
 			string path = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "test.xml");
 
-			using (XmlWriter writer = XmlWriter.Create(path))
+			//Прочитане на XML файл
+			using (XmlReader reader = XmlReader.Create(path))
 			{
-				writer.WriteStartDocument();
-				writer.WriteStartElement("settings");
+				while (reader.Read())
+				{
+					switch (reader.Name)
+					{
+						case "row":
+							property = reader["property"];
+							value = reader.ReadInnerXml();
 
-				//Съдържание на файла
-				writer.WriteStartElement("row");
+							Console.WriteLine("value = " + value);
+							Console.WriteLine("property = " + property + "\n");
+							break;
 
-				writer.WriteAttributeString("property", property);		// <row property="..." > ... </row>
-				writer.WriteString(value);   //<row> value </row>
+						case "simpleRow":
+							value = reader.ReadInnerXml();
 
-				writer.WriteEndElement();
+							Console.WriteLine("value = " + value);
+							break;
+					}
+				}
 
-				writer.WriteEndElement();
-				writer.WriteEndDocument();
 			}
-
-			XDocument document = XDocument.Load(path);
-			document.Save(path);
-
 			System.Diagnostics.Process.Start(path);
+			Console.ReadKey();
+
+			//Създаване на XML файл
+
+			//using (XmlWriter writer = XmlWriter.Create(path))
+			//{
+			//	writer.WriteStartDocument();
+			//	writer.WriteStartElement("settings");
+
+			//	//Съдържание на файла
+			//	writer.WriteStartElement("row");
+
+			//	writer.WriteAttributeString("property", property);		// <row property="..." > ... </row>
+			//	writer.WriteString(value);   //<row> value </row>
+
+			//	writer.WriteEndElement();
+
+			//	writer.WriteEndElement();
+			//	writer.WriteEndDocument();
+			//}
+
+			//XDocument document = XDocument.Load(path);
+			//document.Save(path);
+
+			//System.Diagnostics.Process.Start(path);
 
 
 		}
