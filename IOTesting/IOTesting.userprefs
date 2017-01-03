@@ -1,15 +1,17 @@
-﻿<Properties StartupConfiguration="{19CD63C4-A2B5-41F2-A5D9-FFEFB054FDDC}|Default">
+﻿<Properties StartupConfiguration="{7F6CA154-49C4-4A0F-BBC3-D644BD09E42F}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="IOTextFiles\Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IOXMLFiles\Program.cs">
     <Files>
       <File FileName="IOTextFiles\Program.cs" Line="19" Column="13" />
       <File FileName="IOTextFiles\STable.cs" Line="16" Column="33" />
       <File FileName="IOTextFiles\IOSettings.cs" Line="98" Column="12" />
+      <File FileName="IOXMLFiles\Program.cs" Line="29" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.IOTextFiles PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.IOXMLFiles PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
